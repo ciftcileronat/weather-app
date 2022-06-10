@@ -66,6 +66,8 @@ app.get("/products", (req, res) => {
   });
 });
 
+console.log("gt");
+
 app.get("/help/*", (req, res) => {
   res.render("404", {
     message: "Help article not found...",
